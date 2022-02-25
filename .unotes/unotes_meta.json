@@ -1,0 +1,51 @@
+{
+  "name": "",
+  "isOrdered": true,
+  "folders": {
+    "build": {
+      "name": "build",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "config": {
+      "name": "config",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "database": {
+      "name": "database",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "docker": {
+      "name": "docker",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "plugins": {
+      "name": "plugins",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "public": {
+      "name": "public",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "src": {
+      "name": "src",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    }
+  },
+  "files": {
+    "README": 0
+  }
+}

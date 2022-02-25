@@ -21,11 +21,13 @@
     "debounce-fn": "^5.1.0",
     "dom-classes": "^1.0.0",
     "fndom": "^1.0.0",
+    "heroku": "^7.59.2",
     "into-stream": "^7.0.0",
     "make-editable": "^1.0.1",
     "mysql": "2.18.1",
     "pubsub": "^3.2.1",
     "sharp": "^0.30.0",
+    "strapi": "^3.6.8",
     "strapi-plugin-email-designer": "^2.0.9",
     "strapi-plugin-ezforms": "^0.0.7",
     "wysiwyg": "^2.0.0"
