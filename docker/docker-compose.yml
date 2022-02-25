@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  mysql_strapi:
+    image: mysql:8.0
+    container_name: mysql_strapi
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    cap_add:
+      - SYS_NICE
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=site
+      - MYSQL_USER=site
+      - MYSQL_PASSWORD=site
+    ports:
+      - 33060:3306
+  phpmyadmin_strapi:
+    image: phpmyadmin
+    container_name: phpmyadmin_strapi
+    restart: always
+    depends_on:
+      - "mysql_strapi"
+    environment:
+      - PMA_HOST=mysql
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_USER=site
+      - MYSQL_PASSWORD=site
+    ports:
+      - 8080:80

@@ -1,0 +1,44 @@
+{
+  "name": "strapi-landing-pages",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-graphql": "^4.1.1",
+    "@strapi/plugin-i18n": "4.1.1",
+    "@strapi/plugin-users-permissions": "4.1.1",
+    "@strapi/provider-upload-cloudinary": "^4.1.1",
+    "@strapi/strapi": "4.1.0",
+    "cloudinary": "^1.28.1",
+    "cloudinary-core": "^2.12.3",
+    "debounce": "^1.2.1",
+    "debounce-fn": "^5.1.0",
+    "dom-classes": "^1.0.0",
+    "fndom": "^1.0.0",
+    "into-stream": "^7.0.0",
+    "make-editable": "^1.0.1",
+    "mysql": "2.18.1",
+    "pubsub": "^3.2.1",
+    "sharp": "^0.30.0",
+    "strapi-plugin-email-designer": "^2.0.9",
+    "strapi-plugin-ezforms": "^0.0.7",
+    "wysiwyg": "^2.0.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "2715d05a-11ad-4ad2-a6dc-86a193d92b2c"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
